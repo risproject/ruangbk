@@ -257,7 +257,7 @@ footer {
 	}
 	.kotak .col-2 {
 		width: 50%;
-		padding: 10px;
+		padding-top: 0px;
 		box-sizing: border-box;
 		text-align: center;
 	}
@@ -266,9 +266,38 @@ footer {
 	}
 	.etalase {
 		width: 120px;
-		height: 120px;
+		height: 130px;
 	}
 	.peta {
 		width: 150px;
 		height: 150px;
+	}
+	.audio {
+		width: 100px;
+	}
+	.sambutan .tombol {
+		width: 50%;
+		display: inline-block;
+		padding-bottom: 30px;
+		padding-top: 30px;
+		padding-left: 10px;
+		padding-right: 10px;
+		text-align: center;
+		float: none;
+	}
+	.tombol ul {
+		float: none;
+		text-align: center;
+	}
+	.tombol ul li {
+		display: inline-block;
+	}
+	.tombol ul li a {
+		width: 100px;
+		height: 30px;
+		padding-top: 15px;
+		display: inline-block;
+		background-color: #f05c3e;
+		color: #fff;
+		border-radius: 10%;
 	}
