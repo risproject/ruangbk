@@ -73,10 +73,14 @@ section h3 {
 	color: #f05c3e;
 	margin-bottom: 30px;
 }
+.sambutan h3{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
 .sambutan {
 	text-align: center;
 	padding: 30px;
-	background-color: #F1FADC;
+	background-color: #f2ffed;
 }
 .sambutan img {
 	float: left;
@@ -87,23 +91,43 @@ section h3 {
 	padding-top: 20px;
 }
 .sambutan p {
-	color: #666;
+	color: #303030;
 	word-spacing: 2px;
-	line-height: 20px;
-	padding-top: 30px;
+	line-height: 30px;
+	padding-top: 0px;
 	padding-bottom: 30px;
 	text-align: left;
 }
-.petuah h3 {
-	color: #3E7FF0;
+.sambutan .tombol {
+	display: inline-block;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: right;
+}
+.tombol ul {
+	float: none;
+	text-align: center;
+}
+.tombol ul li {
+	display: inline-block;
+}
+.tombol ul li a {
+	width: 100px;
+	height: 30px;
+	padding-top: 15px;
+	display: inline-block;
+	background-color: #f05c3e;
+	color: #fff;
+	border-radius: 10%;
 }
 .petuah {
 	text-align: center;
 	padding: 30px;
-	background-color: #DCEEFA;
 }
 .petuah img {
-	float: left;
+	float: right;
 	border-radius: 50%;
 	padding-right: 20px;
 	padding-left: 20px;
@@ -112,8 +136,58 @@ section h3 {
 }
 .petuah p {
 	color: #303030;
+	word-spacing: 2px;
 	line-height: 30px;
+	padding-top: 0px;
+	padding-bottom: 30px;
 	text-align: left;
+}
+.info {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 0px;
+	background-color: #f2ffed;
+}
+.info p {
+	color: #303030;
+	word-spacing: 2px;
+	line-height: 30px;
+	padding-top: 0px;
+	padding-bottom: 30px;
+	text-align: center;
+	float: left;
+}
+.info h3{
+	text-align: center;
+}
+.kotak {
+	color: #1AA5CD;
+}
+.kotak:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.kotak .col-2 {
+	width: 50%;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+}
+.kotak .col-2 p {
+	margin: 15px 0;
+	text-align: center;
+}
+.etalase {
+	width: 320px;
+	height: 320px;
+	border: 1px solid;
+	border-radius: 10%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 40px;
+	margin: 0 auto;
+	padding-top: 20px;
 }
 footer {
 	padding: 5px 0;
@@ -165,7 +239,7 @@ footer {
 		transform: rotate(360deg);
 	}
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 529px) {
 	.container {
 		width: 80%;
 	}
@@ -194,25 +268,7 @@ footer {
 		width: 120px;
 		height: 120px;
 	}
-	.box .col-4 {
-		text-align: center;
-		width: 50%;
+	.peta {
+		width: 150px;
+		height: 150px;
 	}
-	.icon {
-		width: 50px;
-		height: 50px;
-		border: 1px solid;
-		line-height: 50px;
-		font-size: 30px;
-		margin: 0 auto;
-	}
-	.box .col-4 h4 {
-		margin: 15px 0;
-	}
-	.medsos {
-		padding: 10px 0;
-	} 
-	.medsos ul li {
-		margin-right: 25px;
-	}
-}
