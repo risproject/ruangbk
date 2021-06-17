@@ -39,31 +39,6 @@ header ul li a:hover {
 	background-color: #f05c3e;
 	color: #fff;
 }
-.banner {
-	height: 350px;
-	background-image: url('../img/banner1.jpg');
-	background-size: cover;
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.banner:after {
-	content:'';
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-.banner h2{
-	color: #fff;
-	z-index: 1;
-	padding: 20px 20px;
-	border: 3px solid #fff;
-	border-radius: 20%;
-}
 section {
 	padding: 50px 0;
 }
@@ -73,17 +48,51 @@ section h3 {
 	color: #f05c3e;
 	margin-bottom: 30px;
 }
-.sambutan h3{
-	padding-top: 30px;
-	padding-bottom: 30px;
+.banner {
+	text-align: center;
+	height: 350px;
+	background-image: url('../img/grafis.png');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner img {
+	color: #1AA5CD;
+	word-spacing: 2px;
+	line-height: 30px;
+	text-align: right;
+	float: right;
+	border-radius: 25%;
+}
+.banner1 {
+	text-align: center;
+	height: 350px;
+	background-image: url('../img/banner1.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner2 {
+	text-align: center;
+	height: 350px;
+	background-image: url('../img/banner2.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .sambutan {
 	text-align: center;
 	padding: 30px;
-	background-color: #f2ffed;
+	padding-bottom: 0px;
+	background-color: #A1A6F5;
 }
 .sambutan img {
-	float: left;
 	border-radius: 50%;
 	padding-right: 20px;
 	padding-left: 20px;
@@ -96,7 +105,7 @@ section h3 {
 	line-height: 30px;
 	padding-top: 0px;
 	padding-bottom: 30px;
-	text-align: left;
+	text-align: justify;
 }
 .sambutan .tombol {
 	display: inline-block;
@@ -105,6 +114,42 @@ section h3 {
 	padding-left: 10px;
 	padding-right: 10px;
 	float: right;
+}
+.tokoh {
+	padding: 30px;
+	padding-top: 0px;
+}
+.tokoh h3 {
+	color: #1AA5CD;
+}
+.box {
+	color: #1AA5CD;
+}
+.box:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.box .col-4 {
+	width: 25%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+}
+.icon {
+	width: 150px;
+	height: 150px;
+	border: 1px solid;
+	border-radius: 25%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 30px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.box .col-4 h4 {
+	margin: 15px 0;
 }
 .tombol ul {
 	float: none;
@@ -121,73 +166,6 @@ section h3 {
 	background-color: #f05c3e;
 	color: #fff;
 	border-radius: 10%;
-}
-.petuah {
-	text-align: center;
-	padding: 30px;
-}
-.petuah img {
-	float: right;
-	border-radius: 50%;
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 20px;
-	padding-top: 20px;
-}
-.petuah p {
-	color: #303030;
-	word-spacing: 2px;
-	line-height: 30px;
-	padding-top: 0px;
-	padding-bottom: 30px;
-	text-align: left;
-}
-.info {
-	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 0px;
-	background-color: #f2ffed;
-}
-.info p {
-	color: #303030;
-	word-spacing: 2px;
-	line-height: 30px;
-	padding-top: 0px;
-	padding-bottom: 30px;
-	text-align: center;
-	float: left;
-}
-.info h3{
-	text-align: center;
-}
-.kotak {
-	color: #1AA5CD;
-}
-.kotak:after {
-	content: '';
-	display: block;
-	clear: both;
-}
-.kotak .col-2 {
-	width: 50%;
-	box-sizing: border-box;
-	text-align: center;
-	float: left;
-}
-.kotak .col-2 p {
-	margin: 15px 0;
-	text-align: center;
-}
-.etalase {
-	width: 320px;
-	height: 320px;
-	border: 1px solid;
-	border-radius: 10%;
-	text-align: center;
-	line-height: 70px;
-	font-size: 40px;
-	margin: 0 auto;
-	padding-top: 20px;
 }
 footer {
 	padding: 5px 0;
@@ -217,15 +195,15 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #1AA5CD;
+	color: #f05c3e;
 }
 .bg-loader .loader {
 	width: 100px;
 	height: 100px;
 	border: 3px solid  #fff;
 	border-radius: 50%;
-	border-top-color: #1AA5CD;
-	border-bottom-color: #1AA5CD;
+	border-top-color: #f05c3e;
+	border-bottom-color: #f05c3e;
 	animation: muter .8s linear infinite;
 } 
 .label{
@@ -239,7 +217,7 @@ footer {
 		transform: rotate(360deg);
 	}
 }
-@media screen and (max-width: 529px) {
+@media screen and (max-width: 768px) {
 	.container {
 		width: 80%;
 	}
@@ -255,25 +233,51 @@ footer {
 		padding:15px 6px;
 		display: inline-block;
 	}
-	.kotak .col-2 {
-		width: 50%;
-		padding-top: 0px;
-		box-sizing: border-box;
+	.banner {
 		text-align: center;
+		height: 100px;
+		background-image: url('../img/grafis.png');
+		background-size: cover;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
-	.kotak .col-2 p {
-		margin: 15px 0;
+	.banner img {
+		color: #1AA5CD;
+		word-spacing: 2px;
+		line-height: 30px;
+		margin-right: 0px;
+		text-align:right;
+		float: right;
 	}
-	.etalase {
-		width: 120px;
-		height: 130px;
+	.banner1 {
+		text-align: center;
+		height: 100px;
+		background-image: url('../img/banner1.jpg');
+		background-size: cover;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
-	.peta {
-		width: 150px;
-		height: 150px;
+	.banner2 {
+		text-align: center;
+		height: 200px;
+		background-image: url('../img/banner2.jpg');
+		background-size: cover;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
-	.audio {
-		width: 100px;
+	.sambutan img {
+		border-radius: 50%;
+		padding-right: 20px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		width: 40%;
 	}
 	.sambutan .tombol {
 		width: 50%;
@@ -284,6 +288,24 @@ footer {
 		padding-right: 10px;
 		text-align: center;
 		float: none;
+	}
+		.box .col-4 {
+		width: 50%;
+		padding: 10px;
+		box-sizing: border-box;
+		text-align: center;
+		float: left;
+	}
+	.icon {
+		width: 120px;
+		height: 120px;
+		border: 1px solid;
+		border-radius: 25%;
+		text-align: center;
+		line-height: 70px;
+		font-size: 30px;
+		margin: 0 auto;
+		padding-top: 20px;
 	}
 	.tombol ul {
 		float: none;
