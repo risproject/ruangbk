@@ -279,6 +279,10 @@ footer {
 		padding-top: 20px;
 		width: 40%;
 	}
+	.sambutan video {
+		text-align: center;
+		width: 280px;
+	}
 	.sambutan .tombol {
 		width: 50%;
 		display: inline-block;
@@ -289,7 +293,7 @@ footer {
 		text-align: center;
 		float: none;
 	}
-		.box .col-4 {
+	.box .col-4 {
 		width: 50%;
 		padding: 10px;
 		box-sizing: border-box;
