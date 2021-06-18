@@ -66,7 +66,7 @@ section h3 {
 	float: right;
 	border-radius: 25%;
 }
-.banner1 {
+.bagiankonsultasi {
 	text-align: center;
 	height: 350px;
 	background-image: url('../img/banner1.jpg');
@@ -76,7 +76,7 @@ section h3 {
 	justify-content: center;
 	align-items: center;
 }
-.banner2 {
+.bagianguru {
 	text-align: center;
 	height: 350px;
 	background-image: url('../img/banner2.jpg');
@@ -251,7 +251,7 @@ footer {
 		text-align:right;
 		float: right;
 	}
-	.banner1 {
+	.bagiankonsultasi {
 		text-align: center;
 		height: 100px;
 		background-image: url('../img/banner1.jpg');
@@ -261,7 +261,7 @@ footer {
 		justify-content: center;
 		align-items: center;
 	}
-	.banner2 {
+	.bagianguru {
 		text-align: center;
 		height: 200px;
 		background-image: url('../img/banner2.jpg');
