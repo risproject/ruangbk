@@ -16,10 +16,13 @@
 	display: block;
 	clear: both;
 }
+header {
+	background-color: #161516;
+}
 header h1 {
 	float: left;
 	padding: 15px 0;
-	color: #782660;
+	color: #F16E8F;
 }
 header ul {
 	float: right;
@@ -30,13 +33,14 @@ header ul li {
 header ul li a {
 	padding:25px 20px;
 	display: inline-block;
+	color: #fff;
 }
 header ul li a:hover {
 	background-color: #B2285E;
 	color: #fff;
 }
 .active {
-	background-color: #782660;
+	background-color: #F16E8F;
 	color: #fff;
 }
 section {
@@ -45,13 +49,13 @@ section {
 section h3 {
 	text-align: center;
 	padding: 30px 0;
-	color: #782660;
+	color: #F16E8F;
 	margin-bottom: 30px;
 }
 .banner {
 	text-align: center;
 	height: 350px;
-	background-image: url('../img/grafis.png');
+	background-image: url('../img/japan.jpg');
 	background-size: cover;
 	position: relative;
 	display: flex;
@@ -90,7 +94,7 @@ section h3 {
 	text-align: center;
 	padding: 30px;
 	padding-bottom: 0px;
-	background-color: #A1A6F5;
+	background-color: #C4C4C4;
 }
 .sambutan img {
 	border-radius: 50%;
@@ -120,10 +124,10 @@ section h3 {
 	padding-top: 0px;
 }
 .tokoh h3 {
-	color: #782660;
+	color: #161516;
 }
 .box {
-	color: #782660;
+	color: #161516;
 }
 .box:after {
 	content: '';
@@ -163,7 +167,7 @@ section h3 {
 	height: 30px;
 	padding-top: 15px;
 	display: inline-block;
-	background-color: #782660;
+	background-color: #F16E8F;
 	color: #fff;
 	border-radius: 10%;
 }
@@ -195,15 +199,15 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #782660;
+	color: #F16E8F;
 }
 .bg-loader .loader {
 	width: 100px;
 	height: 100px;
 	border: 3px solid  #fff;
 	border-radius: 50%;
-	border-top-color: #782660;
-	border-bottom-color: #782660;
+	border-top-color: #F16E8F;
+	border-bottom-color: #F16E8F;
 	animation: muter .8s linear infinite;
 } 
 .label{
@@ -235,13 +239,7 @@ footer {
 	}
 	.banner {
 		text-align: center;
-		height: 100px;
-		background-image: url('../img/grafis.png');
-		background-size: cover;
-		position: relative;
-		display: flex;
-		justify-content: center;
-		align-items: center;
+		height: 140px;
 	}
 	.banner img {
 		color: #1AA5CD;
@@ -263,8 +261,8 @@ footer {
 	}
 	.bagianguru {
 		text-align: center;
-		height: 200px;
-		background-image: url('../img/gambar1.jpg');
+		height: 140px;
+		background-image: url('../img/japan.jpg');
 		background-size: cover;
 		position: relative;
 		display: flex;
@@ -323,7 +321,7 @@ footer {
 		height: 30px;
 		padding-top: 15px;
 		display: inline-block;
-		background-color: #782660;
+		background-color: #F16E8F;
 		color: #fff;
 		border-radius: 10%;
 	}
